@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us!</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="nav-bar">
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="contact.html">CONTACT</a></li>
@@ -16,25 +17,25 @@
     <!-- HEADER -->
     <header>
         <div class="">
-            <h1>Contact Us!</h1>
+            <h1 class="animate-text">Contact Us!</h1>
         </div>
     </header>
 
     <!-- FORM -->
     <section>
         <div class="">
-            <h3>
+            <h3 id="contact-h3">
                 Please provide your contact information and a brief message of your inquiry
             </h3>
             <div class="">
                 <form action="">
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="Last Name"><br>
-                    <input type="email" placeholder="Email"><br>
+                    <input type="email" placeholder="Email">
                     <input type="tel" placeholder="Phone Number"><br>
                     <input type="checkbox" id="Newsletter">
                     <label for="Newsletter">Would you like to receive our monthly newsletter?</label><br>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="type message here..."></textarea><br>
+                    <textarea name="" id="" placeholder="type message here..."></textarea><br>
                     <input type="submit" value="Submit">
                 </form>
             </div>
