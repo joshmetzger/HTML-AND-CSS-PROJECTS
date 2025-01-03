@@ -1,0 +1,22 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 2rem;
+}
+
+#contact input{
+    width: 30%;
+    margin: 8px 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#contact textarea{
+    width: 30%;
+    margin: 8px 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 8rem;
+}
