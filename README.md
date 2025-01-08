@@ -2,9 +2,9 @@
 Sites made during Tech Academy HTML CSS course
 
 ## Projects 
-- [Movie Theater Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/Academy-Cinemas)
-- [Recipes Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/Simple-Recipes)
-- [Pet Store Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/The-Pet-Shop-Website)
+- [Movie Theater Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/tree/main/Academy-Cinemas)
+- [Recipes Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/tree/main/Simple-Recipes)
+- [Pet Store Site](https://github.com/joshmetzger/HTML-AND-CSS-PROJECTS/tree/main/The-Pet-Shop-Website)
 
 ### Movie Theatre Site
 made using HTML, CSS and Bootstrap 5. Mock Theatre site with several movie options and show times 
