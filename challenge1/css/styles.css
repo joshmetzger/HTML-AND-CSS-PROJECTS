@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px){ 
+    .mobile{
+        color: blue;
+    }
+}
+
+.navbar{
+    position: sticky;
+    list-style: none;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    /* margin: -8px -8px 0px -8px; */
+    background-color: rgb(38, 84, 1);
+}
+
+a{
+    padding: 20px;
+    text-decoration: none;
+    color:bisque;
+
+}
+
+a:hover{
+    color:brown;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+}
+
+img{
+    height: 800px;
+    opacity: 0.8;
+    border-radius: 10px;
+    z-index: 1  
+}
+
+h1{
+    z-index: 2;
+    color: white; 
+    position: absolute;
+    font-size: 80px;
+}
+
+table{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+td{
+    padding: 4px;
+}
+
+th{
+    background-color: beige;
+}
+
+.row{
+    display: flex;
+    height: 100px;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+.column{
+    width: 100%;
+    /* height: 100%; */
+    border: 1px solid black;
+    background-color:blueviolet;
+}
+
+.column p{
+    color: white;
+}
+
+.column p:hover{
+    background-color: brown;
+    color: greenyellow;
+}
+
+.image-container{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.image{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),
+    0 6px 20px 0 rgba(0,0,0,19);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(0,0,0);
+    opacity: 0;
+}
+
+/* trigger overlay to 60% opacity when user hovers over image */
+.overlay:hover{
+    opacity: 0.6;
+}
