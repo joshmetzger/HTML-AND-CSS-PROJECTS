@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/one_page_website.css">
+    <script src="JS/one_page_website.js" defer></script>
     <title>One Page Website</title>
 </head>
 <body>
@@ -25,10 +26,60 @@
     <!-- PICTURES -->
     <section id="pics">
         <h2>Pictures</h2>
-        <img src="images/lightroast.jpg" alt="light roast">
-        <img src="images/mediumroast.jpg" alt="medium roast">
-        <img src="images/darkroast.jpg" alt="dark roast">
+        <div class="row">
+            <div class="column">
+                <img src="images/lightroast.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="light roast">
+            </div>
+            <div class="column">
+                <img src="images/mediumroast.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="medium roast">
+            </div>
+            <div class="column">
+                <img src="images/darkroast.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow" alt="dark roast">
+            </div>
+        </div>
     </section>
+
+
+    <!-- Modal/Lightbox -->
+    <div class="modal" id="myModal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/lightroast.jpg" style="width: 100%;" alt="light roast">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/mediumroast.jpg" style="width: 100%;" alt="medium roast">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/darkroast.jpg" style="width: 100%;" alt="dark roast">
+            </div>
+
+            <!-- next/prev -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- thumbnail controls -->
+            <div class="column">
+                <img class="demo" src="images/lightroast.jpg" onclick="currentSlide(1)" alt="light roast">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/mediumroast.jpg" onclick="currentSlide(2)" alt="medium roast">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/darkroast.jpg" onclick="currentSlide(3)" alt="dark roast">
+            </div>
+        </div>
+    </div>
+
 
     <!-- CONTACT FORM -->
     <section id="contact">
