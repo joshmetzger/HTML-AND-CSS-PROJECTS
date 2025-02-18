@@ -37,6 +37,7 @@ function buyTickets(){
     displaySelectedMovieOptions();
 }
 
+// shrink header size when document is scrolled down by 80 pixels
 $(document).on("scroll", function(){
     // when scroll from top over 50px:
     if ($(document).scrollTop() > 50){
